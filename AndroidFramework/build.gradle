@@ -15,6 +15,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+//        maven{ url 'http://maven.oschain.net/content/groups/public/'}
     }
 }
 
