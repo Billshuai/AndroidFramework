@@ -8,7 +8,8 @@
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mvc.ControllerActivtiy">
+        <!--<activity android:name=".mvc.ControllerActivtiy">-->
+        <activity android:name=".mvp.MvpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

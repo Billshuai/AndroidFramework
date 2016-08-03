@@ -42,7 +42,7 @@ public class ControllerActivtiy extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_activity);
+        setContentView(R.layout.mvc_activity);
         initView();
         initData();
     }
@@ -67,7 +67,6 @@ public class ControllerActivtiy extends Activity {
                         if (list != null) {
                             imageUrl = list.get(0).getImage_url();
                             bitm = getHttpBitmap(imageUrl);
-                            Message message = new Message();
                             handler.sendEmptyMessage(0);
                         }
                         //得到可用的图片
